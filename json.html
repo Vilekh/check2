@@ -1,0 +1,17 @@
+<script>
+var obj=[{"eno":1001,"enm":"Jarvis","esal":10000.56},{"eno":1002,"enm":"Jany","esal":20000.16},{"eno":1003,"enm":"John","esal":30000}];
+
+document.write("obj : "+obj+"<br>");
+document.write("typeof obj : "+typeof obj+"<br><br>");
+
+var obj_str=JSON.stringify(obj);
+document.write("json : "+obj_str+"<br>");
+document.write("typeof obj_str : "+typeof obj_str+"<br><br>");
+
+var obj1=JSON.parse(obj_str);
+document.write("obj1 : "+obj1+"<br>");
+document.write("typeof obj1 : "+typeof obj1+"<br><br>");
+
+
+</script>
+
